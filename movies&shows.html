@@ -9,103 +9,2002 @@
     <title>movies & shows</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/resposive.css">
+    <link rel="stylesheet" href="./styles/responsiveMobile.css">
 </head>
 <body data-bs-theme="dark">
     <nav class="navbar  align-items-center ">
            <img class="logo" src="./imges/Logo.png" alt="logo">
            <div class="navlinks" >
-                <a href="./index.html"                   class="text-decoration-none">Home</a>
-                <a href="./movies&shows.html" class="text-decoration-none">movies&shows</a>
-                <a href="#"                   class="text-decoration-none">Support</a>
-                <a href="#"                   class="text-decoration-none">Subscriptions</a>
+            <a href="./index.html" class="text-decoration-none">Home</a>
+            <a href="#" class="text-decoration-none">movies&shows</a>
+            <a href="#"                   class="text-decoration-none">Support</a>
+            <a href="#"                   class="text-decoration-none">Subscriptions</a>
            </div>
-                <div class="navIcons d-flex flex-nowrap" >
-                <img src="./imges/Icon.png" alt="search" >
-                <img src="./imges/Icon (1).png" alt="bell">
+           <div class="navIcons d-flex flex-nowrap" >
+            <button class="button-nav"><img src="./imges/Icon.png" alt="search" ></button>
+            <button class="button-nav"><img src="./imges/Icon (1).png" alt="bell"></button>
+            <button class="button3"><img src="./imges/Icon (3).png"></button>
 
            </div>
     </nav>
-    <div class="container-all">
+    <div class="container-all ">
         <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./imges/db21254b02aad8dff901b2ed9af793040b85b0dd.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-danger slidex" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="slidex" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="slidex" aria-label="Slide 3"></button>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./imges/slied 2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <picture>
+                        <source media="(min-width : 600px)"srcset="./imges/db21254b02aad8dff901b2ed9af793040b85b0dd.png" >
+                        <img src="./imges/WhatsApp Image 2026-05-09 at 3.46.15 AM.jpeg" class="carousel-img">
+                    </picture>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Avengers : Endgame</h5>
+                        <p>With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.</p>
+                        <div class="button-play">
+                            <button type="button" class="btn btn-danger btnPlay "><img src="./imges/Rectangle 511 (Stroke).png"><span>Play Now</span></button>
+                            <div class="btnCntrol">
+                                <button type="button" class="btn btn-dark btns3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="#fff" d="M12 4a1 1 0 0 1 1 1v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-2 0v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 1-1" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="#fff" d="M20 8h-5.61l1.12-3.37c.2-.61.1-1.28-.27-1.8c-.38-.52-.98-.83-1.62-.83h-1.61c-.3 0-.58.13-.77.36L6.54 8H4.01c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h13.31a2 2 0 0 0 1.87-1.3l2.76-7.35c.04-.11.06-.23.06-.35v-2c0-1.1-.9-2-2-2ZM6 19H4v-9h2zm14-7.18L17.31 19H8V9.36L12.47 4h1.15l-1.56 4.68a1.01 1.01 0 0 0 .95 1.32h7v1.82Z" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3"><img src="./imges/Icon audio.png" width="24" height="24"></button>
+                            </div>
+                            
+                        </div>  
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width : 600px)"srcset="./imges/db21254b02aad8dff901b2ed9af793040b85b0dd.png" >
+                        <img src="./imges/WhatsApp Image 2026-05-09 at 3.46.15 AM.jpeg" class="carousel-img">
+                    </picture>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Avengers : Endgame</h5>
+                        <p>With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.</p>
+                        <div class="button-play">
+                            <button type="button" class="btn btn-danger btnPlay"><img src="./imges/Rectangle 511 (Stroke).png"><span>Play Now</span></button>
+                            <div class="btnCntrol">
+                                <button type="button" class="btn btn-dark btns3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="#fff" d="M12 4a1 1 0 0 1 1 1v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-2 0v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 1-1" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="#fff" d="M20 8h-5.61l1.12-3.37c.2-.61.1-1.28-.27-1.8c-.38-.52-.98-.83-1.62-.83h-1.61c-.3 0-.58.13-.77.36L6.54 8H4.01c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h13.31a2 2 0 0 0 1.87-1.3l2.76-7.35c.04-.11.06-.23.06-.35v-2c0-1.1-.9-2-2-2ZM6 19H4v-9h2zm14-7.18L17.31 19H8V9.36L12.47 4h1.15l-1.56 4.68a1.01 1.01 0 0 0 .95 1.32h7v1.82Z" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3"><img src="./imges/Icon audio.png" width="24" height="24"></button>
+                            </div>
+                            
+                        </div>  
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width : 600px)"srcset="./imges/db21254b02aad8dff901b2ed9af793040b85b0dd.png" >
+                        <img src="./imges/WhatsApp Image 2026-05-09 at 3.46.15 AM.jpeg" class="carousel-img">
+                    </picture>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Avengers : Endgame</h5>
+                        <p>With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.</p>
+                        <div class="button-play">
+                            <button type="button" class="btn btn-danger btnPlay"><img src="./imges/Rectangle 511 (Stroke).png"><span>Play Now</span></button>
+                            <div class="btnCntrol">
+                                <button type="button" class="btn btn-dark btns3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="#fff" d="M12 4a1 1 0 0 1 1 1v6h6a1 1 0 0 1 0 2h-6v6a1 1 0 0 1-2 0v-6H5a1 1 0 0 1 0-2h6V5a1 1 0 0 1 1-1" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="#fff" d="M20 8h-5.61l1.12-3.37c.2-.61.1-1.28-.27-1.8c-.38-.52-.98-.83-1.62-.83h-1.61c-.3 0-.58.13-.77.36L6.54 8H4.01c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h13.31a2 2 0 0 0 1.87-1.3l2.76-7.35c.04-.11.06-.23.06-.35v-2c0-1.1-.9-2-2-2ZM6 19H4v-9h2zm14-7.18L17.31 19H8V9.36L12.47 4h1.15l-1.56 4.68a1.01 1.01 0 0 0 .95 1.32h7v1.82Z" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="btn btn-dark btns3"><img src="./imges/Icon audio.png" width="24" height="24"></button>
+                            </div>
+                            
+                        </div>  
+                    </div>
+                </div>
+            </div>    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" class="badge text-bg-secondary" width="56" height="56" viewBox="0 0 24 24">
+                    <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                </svg>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <svg xmlns="http://www.w3.org/2000/svg" class="badge text-bg-secondary" width="56" height="56" viewBox="0 0 24 24">
+	                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                </svg>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <div class="buttons-choose border border-1 border-secondary rounded">
+            <button type="button" class="btn-1 btn btn-dark">movies</button>
+            <button type="button" class="btn-2 btn btn-dark">Shows</button>
+        </div>
+        <div class="movies border border-1 border-secondary rounded">
+            <div class="ourGenres">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>our Genres</h3>
+                    <div class="scrool  p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="movies-section d-flex flex-wrap">
+                    
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (1).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/9dafcd774733b09ee4369ef4ba94ea77d4109669.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (2).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Action</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (1).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/9dafcd774733b09ee4369ef4ba94ea77d4109669.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (2).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Adventure</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (3).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (4).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (5).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (6).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Comedy</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (7).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (8).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (9).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (10).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Drama</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                            <div class="row-1 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (11).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (12).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="row-2 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (13).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (14).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="inner-card d-flex align-items-center justify-content-between">
+                                <h4 class="text-white">Horror</h4>
+                                <a href="#" class="text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                    </svg>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Popular-Top-10-In-Genres">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Popular-Top-10-In-Genres</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="movies-section d-flex flex-wrap">
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (15).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (16).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (17).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (18).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Action</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (19).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (20).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (21).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (22).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Adventure</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (23).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (24).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (25).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (26).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Comedy</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                            <div class="row-1 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (27).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (28).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="row-2 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (29).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (30).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                            <div class="inner-card d-flex align-items-center justify-content-between">
+                                <h4 class="text-white">Drama</h4>
+                                <a href="#" class="text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                    </svg>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="TrendingNow">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Trending Now</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="shows-section d-flex">
+                            <div class="movie-card ">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (31).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (32).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (33).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (34).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (35).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div> 
+            </div>
+            <div class="NewReleases">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>New Releases</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="new-cards d-flex">
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (36).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill " style="background-color:#141414;">
+                                        <p>Released at 14 April 2023</p>
+                                    </div>
+                        </div>
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (37).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill " style="background-color:#141414;">
+                                        <p>Released at 22 April 2023</p>
+                                    </div>
+                        </div>
+                        <div class="new-film-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (39).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill" style="background-color:#141414;">
+                                        <p>Released at 13 April 2023</p>
+                                    </div>
+                        </div>
+                        <div class="new-film-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (40).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill" style="background-color:#141414;">
+                                        <p>Released at 19 April 2023</p>
+                                    </div>
+                        </div>
+                        <div class="new-film-card d-none d-md-block">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (41).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill" style="background-color:#141414;">
+                                        <p>Released at 11 April 2023</p>
+                                    </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="Must-WatchMovies">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Must-Watch Movies</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="Must-watch ">
+                    <div class="must p-2 d-flex align-items-center justify-content-between ">
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (42).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>1h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (43).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>1h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card d-none d-md-block">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (44).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>7h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card d-none d-md-block">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (45).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>7h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+            </div>
+            </div>
 
-    </div>
+        </div>
+        <div class="Shows border border-1 border-secondary rounded">
+            <div class="ourGenres">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>our Genres</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="movies-section d-flex flex-wrap">
+                    <div class="card-movies d-none d-md-flex d-lg-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (1).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/9dafcd774733b09ee4369ef4ba94ea77d4109669.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (2).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Action</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (1).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/9dafcd774733b09ee4369ef4ba94ea77d4109669.png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (2).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Adventure</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (3).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (4).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (5).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (6).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Comedy</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (7).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (8).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (9).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (10).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Drama</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                            <div class="row-1 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (11).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (12).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="row-2 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (13).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (14).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="inner-card d-flex align-items-center justify-content-between">
+                                <h4 class="text-white">Horror</h4>
+                                <a href="#" class="text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                    </svg>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Popular-Top-10-In-Genres">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Popular-Top-10-In-Genres</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="movies-section d-flex flex-wrap">
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (38).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (46).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (47).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (48).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Action</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (19).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (20).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (21).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (22).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Adventure</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                        <div class="row-1 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (23).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (24).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <div class="row-2 d-flex gap-1">
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (25).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (26).png" alt="movie" class="w-100">
+                            </div>
+                        </div>
+                        <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                        <div class="inner-card d-flex align-items-center justify-content-between">
+                            <h4 class="text-white">Comedy</h4>
+                            <a href="#" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-movies d-flex flex-column gap-2">
+                            <div class="row-1 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (27).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (28).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <div class="row-2 d-flex gap-1">
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (29).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="movie-img col-6 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (30).png" alt="movie" class="w-100">
+                                </div>
+                            </div>
+                            <p class="badge text-bg-danger w-50"><small>Top 10 In</small></p>
+                            <div class="inner-card d-flex align-items-center justify-content-between">
+                                <h4 class="text-white">Drama</h4>
+                                <a href="#" class="text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                                    </svg>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="TrendingNow">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Trending Now</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="shows-section d-flex">
+                            <div class="movie-card ">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (49).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (50).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (51).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (52).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (35).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="times d-flex align-items-center justify-content-between">
+                                    <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <g fill="none">
+                                                <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" />
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2" d="M11 8v5h5" />
+                                            </g>
+                                        </svg>
+                                        <span>1h 40min</span>
+                                    </div>
+                                    <div class="ELRO2YA d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#fff" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316l-.105-.316C21.927 11.617 19.633 5 12 5m0 11c-2.206 0-4-1.794-4-4s1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4" />
+                                            <path fill="#fff" d="M12 10c-1.084 0-2 .916-2 2s.916 2 2 2s2-.916 2-2s-.916-2-2-2" />
+                                        </svg>
+                                        <span>1.5K</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div> 
+            </div>
+            <div class="NewReleases">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>New Releases</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="new-cards d-flex">
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (53).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill ">
 
+                                        <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <g fill="none">
+                                                    <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" />
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M11 8v5h5" />
+                                                </g>
+                                            </svg>
+                                            <span>7h 40min</span>
+                                        </div>
+                                        <div class="ELRO2YA d-flex align-items-center justify-content-center rounded-pill text-light">
+                                            
+                                            <span>4 Season</span>
+                                            
+                                        </div>
+                                    </div>    
+                        </div>
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (54).png" alt="movie" class="w-100">
+                                </div>
+                                <div class="Released d-flex align-items-center pt-3 rounded-pill ">
 
+                                        <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <g fill="none">
+                                                    <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" />
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M11 8v5h5" />
+                                                </g>
+                                            </svg>
+                                            <span>7h 40min</span>
+                                        </div>
+                                        <div class="ELRO2YA d-flex align-items-center justify-content-center rounded-pill text-light">
+                                            
+                                            <span>4 Season</span>
+                                            
+                                        </div>
+                                    </div>   
+                        </div>
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (55).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill ">
 
+                                        <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <g fill="none">
+                                                    <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" />
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M11 8v5h5" />
+                                                </g>
+                                            </svg>
+                                            <span>7h 40min</span>
+                                        </div>
+                                        <div class="ELRO2YA d-flex align-items-center justify-content-center rounded-pill text-light">
+                                            
+                                            <span>4 Season</span>
+                                            
+                                        </div>
+                                    </div>   
+                        </div>
+                        <div class="new-film-card">
+                                <div class="w-100 rounded-2 overflow-hidden">
+                                    <img src="./imges/Image (56).png" alt="movie" class="w-100">
+                                </div>
+                                    <div class="Released d-flex align-items-center pt-3 rounded-pill ">
 
+                                        <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <g fill="none">
+                                                    <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" />
+                                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M11 8v5h5" />
+                                                </g>
+                                            </svg>
+                                            <span>7h 40min</span>
+                                        </div>
+                                        <div class="ELRO2YA d-flex align-items-center justify-content-center rounded-pill text-light">
+                                            
+                                            <span>4 Season</span>
+                                            
+                                        </div>
+                                    </div>   
+                        </div>
+                        
+                    </div>
+            </div>
+            <div class="Must-WatchMovies">
+                <div class="movieTOP d-flex justify-content-between align-items-center">
+                    <h3>Must-Watch Movies</h3>
+                    <div class="scrool p-3 d-flex align-items-center ">
+                        <button type="button" class="left-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M22 12H2m9-9l-9 9l9 9" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash-red btn-danger badge text-bg-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="dash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="4" viewBox="0 0 24 24">
+                                <path fill="none"stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14" />
+                            </svg>
+                        </button>
+                        <button type="button" class="right-scrool badge text-bg-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#fff" stroke-width="2" d="M2 12h20m-9-9l9 9l-9 9" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="Must-watch ">
+                    <div class="must p-2 d-flex align-items-center justify-content-between ">
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (57).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>12h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (58).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>8h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (60).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>7h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="w-100 rounded-2 overflow-hidden">
+                                <img src="./imges/Image (59).png" alt="movie" class="w-100">
+                            </div>
+                            <div class="rating d-flex align-items-center justify-content-between">
+                                <div class="time d-flex align-items-center py-1 px-2 rounded-pill text-light">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <circle cx="12" cy="12" r="9" fill="currentColor" opacity="0.16" />
+                                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M11 8v5h5" />
+                                        </g>
+                                    </svg>
+                                    <span>7h 40min</span>
+                                </div>
+                                <div class="d-flex align-items-center gap-1 text-danger">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fill-opacity="0"
+                                            d="M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28l-5.29 3.28l1.49 -6.04l-4.76 -4.02l6.21 -0.46Z">
+                                            <animate fill="freeze" attributeName="fill-opacity" begin="0.5s" dur="0.4s" to="1" />
+                                        </path>
+                                        <path fill="none" stroke="currentColor" stroke-dasharray="34" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3l-2.35 5.76l-6.21 0.46l4.76 4.02l-1.49 6.04l5.29 -3.28M12 3l2.35 5.76l6.21 0.46l-4.76 4.02l1.49 6.04l-5.29 -3.28">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="34;0" />
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    
+            </div>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="start-trial">
+        </div>
+        <div class="start-trial">
         <div class="start-text">
             <h3>Start your free trial today!</h3>
             <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.</p>
         </div>
         <button type="button" class="start-free">Start Free Trial</button>
-
+        </div>
     </div>
     <footer>
         <div class="footer-links">
@@ -161,8 +2060,6 @@
 
         </div>
     </footer>
-
-
 
 
 
