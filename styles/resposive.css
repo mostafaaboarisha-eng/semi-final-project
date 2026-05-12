@@ -514,7 +514,285 @@
             }
         }
     }
-}    
+/* watch */
+    .page3{
+        margin: 0 80px;
+        max-width: calc(100% - 2 * 80px);
+        .carousel{
+            margin-top: 140px;
+            width: 100%;
+
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-caption{
+                        margin-bottom: 30px;
+                        
+                        h5{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                        .button-play{
+                            gap: 12px;
+                            .btnPlay{
+                                width: 128px;
+                                height: 52px;
+                                padding: 14px 20px;
+                                span{
+                                    font-size: 14px;
+                                }
+                            }
+                            btns3{
+                                width: 48px;
+                                height: 48px;
+                                padding: 12px;
+                            }
+
+                        }
+                    }
+                }
+                
+            }
+        }
+        .carousel::after{
+        height: 200px;
+        }
+        .information{
+                flex-direction: column;
+                gap: 20px;
+                .part1{
+                    width: 100%;
+                }
+                .part2{
+                    width: 100%;
+                    flex-shrink: 1; 
+                    padding: 40px;
+                    .year{
+                        h3{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #999999;
+                        }
+                        p{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .langs{
+                        
+                        div{
+                            .lang{
+                                padding :14px;
+                                span{
+                                    
+                                    padding :10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating{
+                       
+                        .rateCards{
+                            img{
+                                width: calc((100% - 30px)/2);
+
+                            }
+                        }
+                    }
+                    .gernes{
+                        div{
+                            display: flex;
+                            gap :20px;
+                            .gerne{
+                                span{
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .director{
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    .music{
+                        h3{
+                            font-size: 24px;
+                        }
+                        .personinfo{
+                            width: fit-content;
+                            img{
+                                width: 56px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        .start-trial{
+            height: 236px;
+            padding: 80px 40px;
+            .start-text{
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .start-free{
+                padding: 14px 20px;
+            }
+        }
+
+    }
+/* Movies Page Open */
+    .page4{
+        margin: 0 80px;
+            max-width: calc(100% - 2 * 80px);
+            .carousel{
+                margin-top: 140px;
+                width: 100%;
+
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            margin-bottom: 30px;
+                            
+                            h5{
+                                font-size: 30px;
+                            }
+                            p{
+                                font-size: 16px;
+                            }
+                            .button-play{
+                                gap: 12px;
+                                .btnPlay{
+                                    width: 128px;
+                                    height: 52px;
+                                    padding: 14px 20px;
+                                    span{
+                                        font-size: 14px;
+                                    }
+                                }
+                                .btns3{
+                                    width: 52px !important;
+                                    height: 52px !important;
+                                    padding: 12px;
+                                }
+
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .carousel::after{
+            height: 200px;
+            }
+            .information{
+                flex-direction: column;
+                gap: 20px;
+                .part1{
+                    width: 100%;
+                }
+                .part2{
+                    width: 100%;
+                    flex-shrink: 1; 
+                    padding: 40px;
+                    .year{
+                        h3{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #999999;
+                        }
+                        p{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .langs{
+                        
+                        div{
+                            .lang{
+                                padding :14px;
+                                span{
+                                    
+                                    padding :10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating{
+                       
+                        .rateCards{
+                            img{
+                                width: calc((100% - 30px)/2);
+
+                            }
+                        }
+                    }
+                    .gernes{
+                        div{
+                            display: flex;
+                            gap :20px;
+                            .gerne{
+                                span{
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .director{
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    .music{
+                        h3{
+                            font-size: 24px;
+                        }
+                        .personinfo{
+                            width: fit-content;
+                            img{
+                                width: 56px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .start-trial{
+                height: 236px;
+                padding: 80px 40px;
+                .start-text{
+                    h2{
+                        font-size: 28px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                .start-free{
+                    padding: 14px 20px;
+                }
+            }
+
+    }
+
+}
+
 
 
 

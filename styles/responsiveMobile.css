@@ -467,9 +467,6 @@
 
     }    
 
-
-
-
     /*movies&shows*/
     .container-all{
         margin: 0 80px;
@@ -772,13 +769,13 @@
         }    
     }
     footer{
-        /* background-color: #0F0F0F; */
-        /* width: 100%; */
+        
         height: 648px;
         padding:50px 16px 5px 16px;
         .footer-links{
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             gap: 30px;
             width:100%;
             .linkContiner{
@@ -854,4 +851,539 @@
 
 
     }
-}
+    /* watch */
+    .page3{
+        margin: 0 80px;
+        max-width: calc(100% - 2 * 80px);
+        .carousel{
+            margin-top: 140px;
+            width: 100%;
+            
+            .carousel-indicators{
+                display: none;
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-img{
+                        height: 400px;
+                    }
+                    .carousel-caption{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        margin-bottom: 1px;
+                        display: block !important;
+                        
+                        h5{
+                            font-size: 24px;
+                        }
+                        p{
+                            display: none;
+                        }
+                        .button-play{
+                            flex-direction: column;
+                            gap: 20px;
+                            align-items: center;
+                            .btnPlay{
+                                width:200px;
+                                height: 42px;
+                                padding: 14px 20px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                img{
+                                    width: 15px;
+                                    
+                                }
+                                span{
+                                    font-size: 14px;
+                                }
+                            }
+                            .btnCntrol{
+                                display: flex;
+                                gap: 8px;
+                                justify-content: center;
+                                .btns3{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 38px;
+                                    height: 38px;
+                                    padding: 10px;
+                                }
+                            }
+                            
+
+                        }
+                    }
+                }
+                
+            }
+        }
+        .carousel::after{
+        height: 200px;
+        }
+        .information{
+                gap: 20px;
+                .part1{
+                    width: 100%;
+                    .description{
+                        padding: 24px;
+                        h6{
+                            font-size: 14px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .cast{
+                        border-radius: 10px;
+                        padding: 24px;
+                        .casthead{
+                            margin-bottom: 16px;
+                            p{
+                                font-size: 14px;
+                            }
+                            .scrooling{
+                                gap: 8px;
+                            }
+                        }
+                        .castbody{
+                            img{
+                                width: calc((100% - 3 * 20px) / 4);
+                            }
+                        }    
+                    }
+                    .reviews{
+                        border-radius: 10px;
+                        padding: 24px;
+                        .reviewHead{
+                            p{
+                                font-size: 14px;
+                            }
+                            button{
+                                padding: 12px;
+                                border-radius: 6px;
+                                svg{
+                                    width: 12px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        .reviewsCARDS{
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+
+                }
+                .part2{
+                    width: 100%;
+                    flex-shrink: 1; 
+                    padding: 40px;
+                    .year{
+                        h3{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #999999;
+                        }
+                        p{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .langs{
+                        div{
+                            .lang{
+                                padding :14px;
+                                span{
+                                    
+                                    padding :10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating{
+                       
+                        .rateCards{
+                            img{
+                                width: calc((100% - 30px)/2);
+
+                            }
+                        }
+                    }
+                    .gernes{
+                        div{
+                            display: flex;
+                            gap :20px;
+                            .gerne{
+                                span{
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .director{
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    .music{
+                        h3{
+                            font-size: 24px;
+                        }
+                        .personinfo{
+                            width: fit-content;
+                            img{
+                                width: 56px;
+                            }
+                        }
+                    }
+                }
+        }   
+       .start-trial{
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 236px;
+            padding: 40px 30px;
+            .start-text{
+                text-align: center;
+                h2{
+                    font-size: 28px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .start-free{
+                width: 149px;
+                height: 49px;
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+        }    
+
+    }
+    /* Movies Page Open */
+    .page4{
+        margin: 0 80px;
+        max-width: calc(100% - 2 * 80px);
+        .carousel{
+            margin-top: 140px;
+            width: 100%;
+            
+            .carousel-indicators{
+                display: none;
+            }
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-img{
+                        height: 400px;
+                    }
+                    .carousel-caption{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        margin-bottom: 1px;
+                        display: block !important;
+                        
+                        h5{
+                            font-size: 24px;
+                        }
+                        p{
+                            display: none;
+                        }
+                        .button-play{
+                            flex-direction: column;
+                            gap: 20px;
+                            align-items: center;
+                            .btnPlay{
+                                width:200px;
+                                height: 42px;
+                                padding: 14px 20px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                img{
+                                    width: 15px;
+                                    
+                                }
+                                span{
+                                    font-size: 14px;
+                                }
+                            }
+                            .btnCntrol{
+                                display: flex;
+                                gap: 8px;
+                                justify-content: center;
+                                .btns3{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 38px;
+                                    height: 38px;
+                                    padding: 10px;
+                                }
+                            }
+                            
+
+                        }
+                    }
+                }
+                
+            }
+        }
+        .carousel::after{
+        height: 200px;
+        }
+        .information{
+                gap: 20px;
+                .part1{
+                    width: 100%;
+                    .SeasonsAndEpisodes{
+                            border: 1px ;
+                            border-radius: 10px;
+                            background-color: #0F0F0F;
+                            border:1px  solid #262626;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 15px ;
+                            .season1{
+                                width: 100%;
+                                .seasonNum{
+                                    .span1{
+                                        font-size: 20px;
+                                    }
+                                    span{
+                                        font-size: 16px;
+                                    }
+
+                                }
+
+                            }
+                            .season2{
+                                gap: 20px;
+                                hr{
+                                    display: none;
+                                }
+                                .seasonHead{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    .seasonNum{
+                                        .span1{
+                                            font-family: var(--font-family-Manrope);
+                                            font-size: 20px;
+                                            font-weight: 600;
+                                            line-height: 150%;
+                                            color: #FFFFFF;
+                                        }
+                                        span{
+                                            font-family: var(--font-family-Manrope);
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            line-height: 150%;
+                                            color: #999999;
+
+                                        }
+                                    }
+                                }
+                                .Episodes{
+                                    background-color: #141414;
+                                    padding: 20px 10px;
+                                    img{
+                                        width:140px ;
+                                    }
+                                    .chapter{
+                                        .chapterHead{
+                                            display: flex;
+                                            justify-content: space-between;
+                                            h3{
+                                            font-size: 12px;
+                                            }
+                                            .time{
+                                                span{
+                                                    font-size: 10px;
+                                                }
+                                            }
+                                        }
+                                        .chapterBody{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                        
+
+                        }
+                    }
+                    .description{
+                        padding: 24px;
+                        h6{
+                            font-size: 14px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .cast{
+                        border-radius: 10px;
+                        padding: 24px;
+                        .casthead{
+                            margin-bottom: 16px;
+                            p{
+                                font-size: 14px;
+                            }
+                            .scrooling{
+                                gap: 8px;
+                            }
+                        }
+                        .castbody{
+                            img{
+                                width: calc((100% - 3 * 20px) / 4);
+                            }
+                        }    
+                    }
+                    .reviews{
+                        border-radius: 10px;
+                        padding: 24px;
+                        .reviewHead{
+                            p{
+                                font-size: 14px;
+                            }
+                            button{
+                                padding: 12px;
+                                border-radius: 6px;
+                                svg{
+                                    width: 12px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        .reviewsCARDS{
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            img{
+                                width:100%;
+                            }
+                        }
+                    }
+
+                }
+                .part2{
+                    width: 100%;
+                    flex-shrink: 1; 
+                    padding: 40px;
+                    .year{
+                        h3{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #999999;
+                        }
+                        p{
+                            font-family: var(--font-family-Manrope);
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .langs{
+                        div{
+                            .lang{
+                                padding :14px;
+                                span{
+                                    
+                                    padding :10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating{
+                       
+                        .rateCards{
+                            img{
+                                width: calc((100% - 30px)/2);
+
+                            }
+                        }
+                    }
+                    .gernes{
+                        div{
+                            display: flex;
+                            gap :20px;
+                            .gerne{
+                                span{
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                    .director{
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                    .music{
+                        h3{
+                            font-size: 24px;
+                        }
+                        .personinfo{
+                            width: fit-content;
+                            img{
+                                width: 56px;
+                            }
+                        }
+                    }
+                }
+        }    
+
+
+       .start-trial{
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 236px;
+            padding: 40px 30px;
+            .start-text{
+                text-align: center;
+                h2{
+                    font-size: 28px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .start-free{
+                width: 149px;
+                height: 49px;
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+        } 
+    }
+}           
+
+    
+
+    
+ 
+
