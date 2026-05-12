@@ -167,7 +167,7 @@
         padding: 0 80px;
         .Questions-head{
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             .title{
                 h1{
                     font-family: var(--font-family-Manrope);
@@ -186,21 +186,11 @@
 
             }
             .btn{
-                background-color: #E50000;
-                width:140px ;
-                height:49px ;
                 border: 1px;
                 border-radius: 6px;
                 padding: 14px 18px;
                 align-self:center;
-                p{
-                    color: #FFFFFF;
-                    font-family: var(--font-family-Manrope);
-                    font-size:14px ;
-                    font-weight: 600;
-                    line-height: 150%;
-
-                }
+                font-size:14px ;
             }
         }
 
